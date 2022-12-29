@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Elements</title>
+    <link rel="stylesheet" href="../src/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="dropdown">
+        <button class="dropdown-toggle">Drop Down Menu</button>
+        <div class="dropdown-menu hidden">
+          <p class="dropdown-item">Action</p>
+          <p class="dropdown-item">Action 2</p>
+          <p class="dropdown-item">Action 3</p>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="tab-item selected">Home</div>
+        <div class="tab-item">Photos</div>
+        <div class="tab-item">Videos</div>
+        <div class="tab-item">Chat</div>
+        <div class="tab-item">Settings</div>
+      </div>
+
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-slide">
+            <img src="https://source.unsplash.com/random/500x500/?city,night" alt="random image" />
+          </div>
+          <div class="carousel-slide">
+            <img src="https://source.unsplash.com/random/500x500/?cold,food" alt="random image" />
+          </div>
+          <div class="carousel-slide">
+            <img src="https://source.unsplash.com/random/500x500/?fruit" alt="random image" />
+          </div>
+          <div class="carousel-slide">
+            <img src="https://source.unsplash.com/random/500x500/?basketball" alt="random image" />
+          </div>
+          <div class="carousel-slide">
+            <img src="https://source.unsplash.com/random/500x500/" alt="random image" />
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button class="nav" id="back-button">prev</button>
+          <div class="nav-dots"></div>
+          <button class="nav" id="next-button">next</button>
+        </div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
